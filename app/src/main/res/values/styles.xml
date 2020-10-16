@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        
+    </style>
+
+    <style name="FunctionalButtons">
+        <item name ="android:textSize">40sp</item>
+        <item name = "android:minHeight">80dp</item>
+        <item name = "android:textColor">@color/colorFuncButtonFG</item>
+        <item name = "background">@drawable/func_round_button</item>
+    </style>
+
+    <style name="NumButtons">
+        <item name ="android:textSize">40sp</item>
+        <item name = "android:minHeight">80dp</item>
+        <item name = "android:textColor">@color/colorNumButtonFG</item>
+        <item name = "background">@drawable/num_button_round</item>
+    </style>
+
+    <style name="equalButtons">
+        <item name ="android:textSize">40sp</item>
+
+        <item name = "android:textColor">@color/equalButtonBG</item>
+        <item name = "background">@drawable/equalbutton</item>
+    </style>
+</resources>
